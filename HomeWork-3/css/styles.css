@@ -3,13 +3,21 @@
   padding: 0;
 }
 
-body {
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-top: 5%;
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
   font-family: sans-serif;
   font-size: 12px;
   line-height: 18pt;
+}
+
+#fit-logo {
+    background-image: url("../img/Logo.jpg");
+    background-repeat: no-repeat;
+    display:block;
+    width: 22%;
+    height: 40px;
 }
 
 .lg {
@@ -28,27 +36,30 @@ a {
 }
 
 .header {
-  float: left;
+    /*float: left;
   width: 100%;
   clear: both;
-  background-color: rgb(80,80,80);
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 5%;*/
 }
 
 .header li {
   float: left;
   width: 25%;
   text-align: center;
+  background-color: rgb(80,80,80);
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-.header li:hover {
+.header a:hover {
   background-color: rgb(49, 49, 49);
 }
 
 .header a {
   color: white;
   font-size: 13px;
+  display: block;
 }
 
 .pict {
@@ -62,7 +73,14 @@ a {
 
 .left-menu li {
   padding-left: 5%;
-  border: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+}
+
+.left-menu a {
+  display: block;
 }
 
 .left-menu a:hover {
@@ -75,9 +93,11 @@ a {
 }
 
 .clearfix:after{
-  content: '';
+  content: '.';
   clear: both;
   display: block;
+  visibility: hidden;
+  height: 0;
 }
 
 .pic {
@@ -98,7 +118,7 @@ a {
   float: right;
 }
 
-.footer {
+.footer ul {
   float: left;
   width: 75%;
   clear: both;
