@@ -36,11 +36,8 @@ a {
 }
 
 .header {
-    /*float: left;
-  width: 100%;
-  clear: both;
-  margin-bottom: 5%;
-  margin-top: 5%;*/
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .header li {
@@ -48,12 +45,12 @@ a {
   width: 25%;
   text-align: center;
   background-color: rgb(80,80,80);
-  margin-bottom: 5%;
-  margin-top: 5%;
 }
 
 .header a:hover {
   background-color: rgb(49, 49, 49);
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
 }
 
 .header a {
@@ -72,11 +69,14 @@ a {
 }
 
 .left-menu li {
-  padding-left: 5%;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
+  border-bottom: 0px;
+}
 
+.left-menu li:last-child {
+  border-bottom: 1px solid grey;
 }
 
 .left-menu a {
