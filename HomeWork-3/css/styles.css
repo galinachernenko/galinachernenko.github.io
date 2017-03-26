@@ -4,11 +4,12 @@
 }
 
 .wrapper {
-  width: 700px;
+  width: 1366px;
+  height: 950px;
   margin: 0 auto;
   padding: 20px;
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18pt;
 }
 
@@ -16,12 +17,8 @@
     background-image: url("../img/Logo.jpg");
     background-repeat: no-repeat;
     display:block;
-    width: 22%;
-    height: 40px;
-}
-
-.lg {
-  width: 20%;
+    width: 200px;
+    height: 50px;
 }
 
 ul {
@@ -38,13 +35,20 @@ a {
 .header {
   margin-bottom: 40px;
   margin-top: 40px;
+  background-color: rgb(80,80,80);
+}
+
+.header ul{
+  letter-spacing : -.36em;
+        font-size : 0;
 }
 
 .header li {
-  float: left;
-  width: 25%;
+  display: inline-block;
+  letter-spacing: normal;
+  font-size : 14px;
+  width: 200px;
   text-align: center;
-  background-color: rgb(80,80,80);
 }
 
 .header a:hover {
@@ -60,12 +64,13 @@ a {
 }
 
 .pict {
-  width: 80%;
+  width: 677px;
 }
 
 .left-menu {
-    width: 30%;
+    width: 360px;
     float: left;
+    margin-right: 40px;
 }
 
 .left-menu li {
@@ -84,12 +89,12 @@ a {
 }
 
 .left-menu a:hover {
-  padding-left: 5%;
+  padding-left: 10px;
 }
 
 .content {
-  width: 70%;
-  float: right;
+  width: 965px;
+  display: inline-block;
 }
 
 .clearfix:after{
@@ -101,10 +106,7 @@ a {
 }
 
 .pic {
-  padding: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  padding: 20px;
   border: 1px solid grey;
 }
 
@@ -114,24 +116,21 @@ a {
 }
 
 .LoremIpsum {
-  padding: 5%;
-  float: right;
+  padding: 48px;
 }
 
-.footer ul {
-  float: left;
-  width: 75%;
-  clear: both;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 5%;
+.footer {
   background-color: rgb(225, 225, 225);
 }
 
+.footer ul {
+  width: 600px;
+}
+
 .footer li {
-  float: left;
-  width: 23%;
-  padding-left: 2%;
+  display: inline-block;
+  width: 120px;
+  text-align: center;
 }
 
 .footer a:hover {
@@ -140,8 +139,9 @@ a {
 }
 
 .FooterR {
-  float: right;
-  line-height: 30px;
-  width: 25%;
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  width: 180px;
   background-color: rgb(225, 225, 225);
 }
