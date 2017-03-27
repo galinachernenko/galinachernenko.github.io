@@ -124,7 +124,8 @@ a {
 }
 
 .footer ul {
-  width: 600px;
+  width: 70%;
+  display: inline-block;
 }
 
 .footer li {
@@ -139,9 +140,7 @@ a {
 }
 
 .FooterR {
-  display: block;
+  display: inline-block;
   text-align: right;
-  margin-left: auto;
-  width: 180px;
-  background-color: rgb(225, 225, 225);
+  width: 29%;
 }
