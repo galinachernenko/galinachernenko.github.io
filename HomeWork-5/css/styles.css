@@ -6,6 +6,7 @@
 body {
   width:1215px;
   height: 1029px;
+  font-family: "Helvetica Neue";
     }
 
 .wrapper {
@@ -22,6 +23,7 @@ body {
 
 .menu2 {
   float: right;
+  border-left: 2px solid #60b5ed;
 }
 
 .menu1 {
@@ -30,27 +32,26 @@ body {
 
 .menu2 > li {
   display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: yellow;
+  /background-color: green;
   /border: 1px solid yellow;
 }
 
 .menu1 > li {
   display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: yellow;
+  /background-color: green;
   /border: 1px solid yellow;
 }
 
 .menu2 > li > a {
-  font-family: Tahoma;
-  color: #60b5ed;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -59,13 +60,20 @@ body {
 }
 
 .menu1 > li > a {
-  font-family: Tahoma;
-  color: #60b5ed;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-align: left;
   text-decoration: none;
+}
+
+.menu1 li:hover {
+  background-color: #60b5ed;
+}
+
+.menu2 li:hover {
+  background-color: #60b5ed;
 }
 
 .content{
@@ -83,8 +91,131 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: grey;
-  border: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Cadastre{
+  /background-color: green;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  /margin-left: 25%;
+  /margin-right: 25%;
+}
+
+.login{
+  background-color: green;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+hr{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: white;
+  height: 1px;
+}
+
+.line1 {
+  overflow: hidden;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.line1:before,
+.line1:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+  /* установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid #FFF;
+  border-width: 0 1px;
+}
+
+.line1:before {
+  /* смещаем левую линию влево отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает слева от текста
+  */
+  margin-left: -100%;
+}
+.line1:after {
+  /* смещаем правую линию вправо отрицательным отступом, равным 100% ширины
+  ** благодаря этому линия встает справа от текста
+  */
+  margin-right: -100%;
+}
+
+.mtable {
+  border: none;
+  width: 40%;
+  margin: auto;
+}
+
+form div {
+	margin: 5px 20px 5px 20px;
+	position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+button#facebook {
+  border: 0;
+  box-shadow: 0 -1px 2px rgba(255,255,255,0.5);
+  background-color: rgb(52, 81, 150);
+  color: white;
+  padding: 5px;
+  text-align: right;
+}
+
+.icon {
+  display: inline-block;
+  /border-right: 0.5px solid rgb(255, 255, 255);
+  color: white;
+  padding: 3px 4px 3px 8px;
+  background-color: rgb(52, 81, 150);
+  box-shadow: 0 -1px 2px rgba(255,255,255,0.5);
+}
+
+.fbtable > table {
+  margin: auto;
+  text-align: center;
+}
+
+fieldset {
+  	border: none;
+
+}
+
+fieldset label {
+    	position: absolute;
+    	top: 2px;
+    	left: 6px;
+    	color: #999999;
+}
+
+.check {
+    	/position: absolute;
+    	/top: 3px;
+    	/left: 6px;
+    	/color: #999999;
 }
 
 .clearfix::after{

@@ -1,33 +1,93 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Homework#5</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <style>
+        @font-face {
+          font-family: "Helvetica Neue";
+          src: url("fonts/HelveticaNeue-Regular/HelveticaNeue.ttf");
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="header clearfix">
               <ul class="menu2">
-                <li><a href="#"><p>Minhas Ofertas</p></a></li>
-                <li><a href="#"><p>Ola! Entrar ou Cadastre-se</p></a></li>
+                <li><a href="#"><i class="fa fa-flag-o" aria-hidden="true"></i>&nbsp&nbspMinhas Ofertas</a></li>
+                <li><a href="#"><p>Ola! Entrar ou Cadastre-se</p></a>
+                </li>
               </ul>
               <ul class="menu1">
-              <li><a href="#"><p>Meu YouBike</p></a></li>
-              <li><a href="#"><p>Vender</p></a></li>
-              <li><a href="#"><p>Forum</p></a></li>
-              <li><a href="#"><p>Contato</p></a></li>
-              <li><a href="#"><p>Ajuda</p></a></li>
-            </ul>
+                <li><a href="#"><p>Meu YouBike</p></a></li>
+                <li><a href="#"><p>Vender</p></a></li>
+                <li><a href="#"><p>Forum</p></a></li>
+                <li><a href="#"><p>Contato</p></a></li>
+                <li><a href="#"><p>Ajuda</p></a></li>
+              </ul>
         </div>
     <div class="content clearfix">
         <div class="regform">
-           dfskdsg;sdg;jdgljfklfk
+           <div class="Cadastre">
+                Cadastre-se
+           </div>
+           <div class="line1"></div>
+           <div class="mtable">
+             <div class="fbtable">
+              <table rules="none">
+                 <tr>
+                   <td>
+                     <div class="icon">
+                         <i class="fa fa-facebook" aria-hidden="true"></i>
+                     </div>
+                   </td>
+                   <td>
+                     <button id="facebook"
+                             formaction="#">
+                        &nbsp&nbsp&nbsp&nbsp Log In with Facebook &nbsp&nbsp&nbsp&nbsp > &nbsp
+                    </button>
+                   </td>
+                 </tr>
+              </table>
+             </div>
+             <form action="submit">
+               <fieldset>
+                 <div class="line1">
+                   OU
+                 </div>
+                <div>
+                  <input type="text" name="1st_name"/>
+                  <label for="1st_name">First Name</label>
+                </div>
+                <div>
+                  <input type="text" name="2nd_name"/>
+                  <label for="2nd_name">Last Name</label>
+                </div>
+                <div>
+                  <input type="text" name="email"/>
+                  <label for="email">Email Address</label>
+                </div>
+                <div>
+                  <input type="text" name="pwd"/>
+                  <label for="pwd">Choose Password</label>
+                </div>
+                <div>
+                  <input type="text" name="pwd2"/>
+                  <label for="pwd2">Password Confirm</label>
+                </div>
+               </fieldset>
+                 <div class="check">
+                   <input type="checkbox" name="check"/>
+                   <label for="check">Send me Youbike updates and tips</label>
+                 </div>
+                   <input type="button" name="button1" value="Create my Account"/>
+                 <p>By clicking the button above, you agree to the Terms of Service
+      Xiew our Privacy Policy.</p>
+               </form>
+           </div>                  
         </div>
-      dsd
     </div>
-  </div>
-  <div class="copyright">
-    <p>Copyright(C) asia-holidays.com. 2010 </p>
   </div>
 </body>
