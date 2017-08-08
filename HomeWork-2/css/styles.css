@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: violet;
+}
+h2 {
+  color: white;
+}
+
+.red {
+  width: 100px;
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.violet {
+  width: 250px;
+  background-color: blue;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.yellow {
+  width: 250px;
+  background-color: yellow;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.one {
+  width: 50px;
+  height: 40px;
+  background-color: red;
+  margin-top: 15px;
+}
+
+.two {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  margin-top: 15px;
+}
+
+.three {
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  margin-top: 15px;
+}
+
+.orange {
+  font-size: 40px;
+  width: 300px;
+  height: 80px;
+  background-color: orange;
+  margin-top: 15px;
+}

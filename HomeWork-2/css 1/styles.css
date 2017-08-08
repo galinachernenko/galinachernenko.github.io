@@ -1,0 +1,31 @@
+
+
+body {
+	background: lightgrey;
+}
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+h1 {
+color: #654321;
+font-family: sans-serif;
+}
+
+h3 {
+  color: #cd853f;
+}
+
+.q1 {
+  font-size: 20px;
+}
+
+sub {
+  color: blue;
+}
+
+sup {
+  color: red;
+}
