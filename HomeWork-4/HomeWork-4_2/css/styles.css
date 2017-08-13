@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 555px;
+  height: 555px;
+  margin: auto;
+  border: solid 1px black;
+}
+
+.cellOdd{
+  width: 185px;
+  height: 185px;
+  background-color: #850000;
+  float: left;
+}
+
+.cellEven{
+  width: 185px;
+  height: 185px;
+  background-color: white;
+  float: left;
+}
+
+img {
+  width: inherit;
+}
