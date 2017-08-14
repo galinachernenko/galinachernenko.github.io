@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.fullwrap{
+  width: 700px;
+  background-color: #f8f123;
+  padding: 5px;
+}
+
+.header{
+  height: 30px;
+  background-color: #ed85b8;
+  margin-bottom: 10px;
+}
+
+.wrap{
+  height: 400px;
+  background-color: #85ed8a;
+  padding: 5px;
+}
+
+.main{
+  width: 60%;
+  height: inherit;
+  background-color: #85eced;
+  float: left;
+}
+
+.sidebar{
+  width: 37%;
+  height: inherit;
+  background-color: #edd385;
+  float: right;
+}
+
+.footer{
+  width: inherit;
+  height: 60px;
+  background-color: #af85ed;
+  margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  padding: 40px;
+}
+
+.header{
+  width: inherit;
+  margin-bottom: 40px;
+}
+
+.group1{
+  width: 45%;
+}
+
+.group2{
+  width: 28%;
+}
