@@ -6,17 +6,29 @@
 .wrapper{
   width: 700px;
   margin: auto;
-  background-color: white;
+  background-color: lightgray;
+  border: solid 1px black;
   padding: 40px;
 }
 
 .header{
-  width: inherit;
-  margin-bottom: 40px;
+  width: 700px;
+  //margin-bottom: 40px;
+  display: block;
+}
+
+.innerwrap{
+  padding: 40px;
+  background-color: white;
+}
+
+p{
+  font-family: sans-serif;
 }
 
 .group1{
   width: 45%;
+  margin: auto;
 }
 
 .group2{
