@@ -4,5 +4,26 @@
 }
 
 body {
-	background: violet;
+	background: #80cdc6;
+}
+
+.wrapper{
+position: absolute;
+border: 1px solid black;
+width: 100%;
+}
+
+.clouds{
+  width: 50%;
+}
+
+.world{
+/position: absolute;
+width: 98%;
+top: 1px;
+/right: 1%;
+}
+
+.ship{
+  width: 30%;
 }

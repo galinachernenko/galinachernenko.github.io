@@ -26,11 +26,61 @@ p{
   font-family: sans-serif;
 }
 
+center {
+    display: block;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+}
+
 .group1{
-  width: 45%;
+  width: 98%;
   margin: auto;
+  margin-bottom: 8px;
 }
 
 .group2{
-  width: 28%;
+  width: 98%;
+}
+
+.img_title_l{
+  width: 48%;
+  float: left;
+  padding: 4% 2% 4% 0%;
+}
+
+.img_title_r{
+  width: 48%;
+  float: left;
+  padding: 4% 0% 4% 2%;
+}
+
+.button{
+  text-align: center;
+  background-color: #cf5b4e;
+  padding: 8px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.button > a{
+  display: block;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  font-family: Tahoma, Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img_title{
+  width: 30%;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.img_title_m{
+  width: 30%;
+  float: left;
+  margin: 0% 5% 25px 5%;
 }
